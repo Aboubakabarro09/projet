@@ -1,0 +1,476 @@
+.h6{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	position: static;
+
+}
+
+.search{
+	text-align: left;
+	border: 25px black;
+	width: 500px;
+	border-radius: 35px;
+    padding: 15px;
+	outline: whitesmoke solid 3px;
+	margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 40px;
+    position: static;
+}
+.search:hover {box-shadow: 6px 6px 12px gray ;}
+
+.submit{
+	width: 50px;
+	border: 40px;
+	border-radius: 50px;
+	margin-right: 50px;
+	margin-left: 40px;
+	align-items: center;
+}
+
+.a1{
+	border: 25px black;
+	border-radius: 35px;
+	margin-left: -110px;
+
+}
+
+.a2{
+	background:auto;
+}
+.connexion{
+	font-size: 20 px;
+	text-align: center;
+	border: 1px solid;
+	background-color: whitesmoke;
+	position: static;
+	align-items: center;
+	margin-left: 300px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+.swiper-button-next{
+    margin-left: 5px;
+    background-color: white;
+    height: 100px;
+    width: 200px;
+}
+.swiper-button-prev{
+    margin-right: 20px;
+    background-color: white;
+    height: 100px;
+    width: 200px;
+}
+
+.bloc{
+    text-align: center;
+    display: display;
+    margin-left: 200px;
+    margin-right: 80px;
+    margin-top: 0px;
+    margin-top: 0px;
+    font-family: Times New Roman;
+    font-size: 15px;
+
+}
+
+.nav{
+    font-size: small;
+    position: absolute;
+}
+
+.souligne{
+    height: 4px;
+    transition: 1s;
+}
+
+.licu:hover{
+    background-size: 0 100%;
+    background: linear-gradient(to top, rgba(0, 255, 255, 0.5) 0%, rgba(0, 255, 255, 0.5)10%, transparent 10.01% );
+}
+
+.deroulant{ 
+margin-left: 750px;
+position: static;
+	
+}
+
+.gg{
+    display: flex;
+    width: 1200px;
+}
+.test{
+    display: none;
+    cursor: pointer;
+}
+
+.survol1{
+    background: url("./image2/OIP2.jpg") no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 200px;
+    margin-top: 50px;
+    border-radius: 20px;
+    margin-left: 20px;
+    border: 1px solid black;
+    border: 1px solid darkgray;
+}
+.texto1{
+    width: 208px;
+    height: 50px;
+    background-color: white;
+    margin-top: -51px;
+    margin-left: 21px;
+    border-radius: 0 0 20px 20px;
+}
+.overlay1{
+   opacity: 0;
+   padding-top: 130px;
+   padding-left: 10px;
+   color: white;
+}   
+
+.overlay1:hover{
+    opacity: 1;
+    box-shadow: inset -20px -22px 48px -10px rgb(000,000,000);
+    border-radius: 20px 20px 0 0;
+}
+
+.survol2{
+    background: url("./image2/salade.jpg") no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 200px;
+    margin-top: 50px;
+    border-radius: 20px;
+    margin-left: 20px;
+    border: 1px solid black;
+    border: 1px solid darkgray;
+}
+.texto2{
+    width: 208px;
+    height: 50px;
+    background-color: white;
+    margin-top: -51px;
+    margin-left: 21px;
+    border-radius: 0 0 20px 20px;
+}
+.overlay2{
+   opacity: 0;
+   padding-top: 130px;
+   padding-left: 10px;
+   color: white;
+}   
+
+.overlay2:hover{
+    opacity: 1;
+    box-shadow: inset -20px -22px 48px -10px rgb(000,000,000);
+    border-radius: 20px 20px 0 0;
+}
+
+
+.survol3{
+    background: url("./image2/IMG_19.jpg") no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 200px;
+    margin-top: 50px;
+    border-radius: 20px;
+    margin-left: 20px;
+    border: 1px solid black;
+    border: 1px solid darkgray;
+}
+.texto3{
+    width: 208px;
+    height: 50px;
+    background-color: white;
+    margin-top: -51px;
+    margin-left: 21px;
+    border-radius: 0 0 20px 20px;
+}
+.overlay3{
+   opacity: 0;
+   padding-top: 130px;
+   padding-left: 10px;
+   color: white;
+}   
+
+.overlay3:hover{
+    opacity: 1;
+    box-shadow: inset -20px -22px 48px -10px rgb(000,000,000);
+    border-radius: 20px 20px 0 0;
+}
+
+.survol4{
+    background: url("image2/R3.jpg") no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 200px;
+    margin-top: 50px;
+    border-radius: 20px;
+    margin-left: 20px;
+    border: 1px solid black;
+    border: 1px solid darkgray;
+}
+.texto4{
+    width: 208px;
+    height: 50px;
+    background-color: white;
+    margin-top: -51px;
+    margin-left: 21px;
+    border-radius: 0 0 20px 20px;
+}
+.overlay4{
+   opacity: 0;
+   padding-top: 130px;
+   padding-left: 10px;
+   color: white;
+}   
+.overlay4:hover{
+    opacity: 1;
+    box-shadow: inset -20px -22px 48px -10px rgb(000,000,000);
+    border-radius: 20px 20px 0 0;
+}
+
+
+.survol5{
+    background: url("image2/img6.jpg") no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 200px;
+    margin-top: 50px;
+    border-radius: 20px;
+    margin-left: 20px;
+    border: 1px solid black;
+    border: 1px solid darkgray;
+}
+.texto5{
+    width: 208px;
+    height: 50px;
+    background-color: white;
+    margin-top: -51px;
+    margin-left: 21px;
+    border-radius: 0 0 20px 20px;
+}
+.overlay5{
+   opacity: 0;
+   padding-top: 130px;
+   padding-left: 10px;
+   color: white;
+}   
+
+.overlay5:hover{
+    opacity: 1;
+    box-shadow: inset -20px -22px 48px -10px rgb(000,000,000);
+    border-radius: 20px 20px 0 0;
+}
+
+/*deuxieme partie*/
+
+.survol6{
+    background: url("image2/Plastique.jpg") no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 200px;
+    margin-top: 50px;
+    border-radius: 20px;
+    margin-left: 20px;
+    border: 1px solid black;
+    border: 1px solid darkgray;
+}
+.texto6{
+    width: 208px;
+    height: 50px;
+    background-color: white;
+    margin-top: -51px;
+    margin-left: 21px;
+    border-radius: 0 0 20px 20px;
+}
+.overlay6{
+   opacity: 0;
+   padding-top: 130px;
+   padding-left: 10px;
+   color: white;
+}   
+
+.overlay6:hover{
+    opacity: 1;
+    box-shadow: inset -20px -22px 48px -10px rgb(000,000,000);
+    border-radius: 20px 20px 0 0;
+}
+
+.survol7{
+    background: url("image2/R5.jpg") no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 200px;
+    margin-top: 50px;
+    border-radius: 20px;
+    margin-left: 20px;
+    border: 1px solid black;
+    border: 1px solid darkgray;
+}
+.texto7{
+    width: 208px;
+    height: 50px;
+    background-color: white;
+    margin-top: -51px;
+    margin-left: 21px;
+    border-radius: 0 0 20px 20px;
+}
+.overlay7{
+   opacity: 0;
+   padding-top: 130px;
+   padding-left: 10px;
+   color: white;
+}   
+
+.overlay7:hover{
+    opacity: 1;
+    box-shadow: inset -20px -22px 48px -10px rgb(000,000,000);
+    border-radius: 20px 20px 0 0;
+}
+
+.survol8{
+    background: url("image2/R7.jpg") no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 200px;
+    margin-top: 50px;
+    border-radius: 20px;
+    margin-left: 20px;
+    border: 1px solid black;
+    border: 1px solid darkgray;
+}
+.texto8{
+    width: 208px;
+    height: 50px;
+    background-color: white;
+    margin-top: -51px;
+    margin-left: 21px;
+    border-radius: 0 0 20px 20px;
+}
+.overlay8{
+   opacity: 0;
+   padding-top: 130px;
+   padding-left: 10px;
+   color: white;
+}   
+
+.overlay8:hover{
+    opacity: 1;
+    box-shadow: inset -20px -22px 48px -10px rgb(000,000,000);
+    border-radius: 20px 20px 0 0;
+}
+
+.survol9{
+    background: url("image2/nourriture66.jpg") no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 200px;
+    margin-top: 50px;
+    border-radius: 20px;
+    margin-left: 20px;
+    border: 1px solid black;
+    border: 1px solid darkgray;
+}
+.texto9{
+    width: 208px;
+    height: 50px;
+    background-color: white;
+    margin-top: -51px;
+    margin-left: 21px;
+    border-radius: 0 0 20px 20px;
+}
+.overlay9{
+   opacity: 0;
+   padding-top: 130px;
+   padding-left: 10px;
+   color: white;
+}   
+
+.overlay9:hover{
+    opacity: 1;
+    box-shadow: inset -20px -22px 48px -10px rgb(000,000,000);
+    border-radius: 20px 20px 0 0;
+}
+
+.survol10{
+    background: url("./image2/img9.jpg") no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 200px;
+    margin-top: 50px;
+    border-radius: 20px;
+    margin-left: 20px;
+    border: 1px solid black;
+    border: 1px solid darkgray;
+}
+.texto10{
+    width: 208px;
+    height: 50px;
+    background-color: white;
+    margin-top: -51px;
+    margin-left: 21px;
+    border-radius: 0 0 20px 20px;
+}
+.overlay10{
+   opacity: 0;
+   padding-top: 130px;
+   padding-left: 10px;
+   color: white;
+}   
+
+.overlay10:hover{
+    opacity: 1;
+    box-shadow: inset -20px -22px 48px -10px rgb(000,000,000);
+    border-radius: 20px 20px 0 0;
+}
+
+.part{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+section.a{
+    width: 1200px;
+}
+
+body{
+     width: 1200px;
+     object-fit: cover;
+}
+.ab{
+    position: fixed ;
+    border: 1px solid black;
+    border-radius: 3px;
+    background: whitesmoke; 
+    text-decoration-line: blue; 
+    float: right; 
+    bottom: 16px; 
+    right: 0px; 
+    height: 30px; 
+    width: 120px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.commentaire{
+    text-align:right;
+    color: royalblue;
+}
+.chat{
+    text-align: left;
+    background-color: royalblue;
+    color: royalblue;
+}

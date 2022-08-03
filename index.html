@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>we_like_food</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style1.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- Link Swiper's CSS -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+       <style>
+      html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      body {  
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+
+      .swiper {
+        width: 100%;
+        height:  65px;
+        display: flex;
+
+      }
+      .swiper-slide:hover{
+        box-shadow: 6px 6px 6px gray;
+      }
+      .swiper-slide {
+        text-align: right;
+        font-size: small;
+        background: auto;
+        margin: 2px;
+        padding: 0px;
+        display: flex;
+        border-radius: 40px;
+        text-align: justify-all;
+        border: 1.5px solid skyblue;
+        width: 100px;
+        height: 60px;
+        box-shadow: 1.5px;
+        box-s
+
+        /* Center slide text vertically */
+          display: inline-flex;
+          display: -ms-flexbox;
+          /*display: -webkit-flex;*/
+          display: flex;
+          /*-webkit-box-pack: center;*/
+          -ms-flex-pack: center;
+          /*-webkit-justify-content: center;*/
+          justify-content: center;
+          /*-webkit-box-align: center;*/
+          -ms-flex-align: center;
+          /*-webkit-align-items: center;*/
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 80px;
+        object-fit: cover;
+        cursor: pointer;
+      }
+    </style>
+</head>
+
+
+<body>
+  <header>
+     <h6>
+       <a href="https://www.bing.com/?FORM=Z9FD1"><img src="image2/Capture d’écran1.png" width="150" height="100"></a>
+        <input type="search" name="text" class="search" value="nourriture">
+         <i class="a1"><img src="image2/voice.png" width="20" type="submit">&nbsp;<img src="image2/blob.jpg" width="20" class="a2">&nbsp;<img src="image2/search.png" width="20" type="submit" name="search"></i>
+        <input type="submit" name="search" value="connexion" class="connexion">
+        <button style="margin: auto; opacity: 2; background-color: whitesmoke;"><i class="fas fa-bars"></i></button>
+     </h6>
+  </header>
+
+<section class="bloc">
+ <div class="gg">
+   <div class="nav">
+     <div class="licu"><a href="http://"><p>TOUT &nbsp;&nbsp; </p></a><div class="souligne"></div></div>
+
+     <div class="licu"><a href="http://"><p>IMAGES &nbsp;&nbsp;</p></a><div class="souligne"></div></div>
+
+      <div class="licu"><a href="http://"><p>VIDEOS &nbsp;&nbsp;</p></a><div class="souligne"></div></div>
+
+      <div class="licu"><a href="http://"><p>CARTES &nbsp;&nbsp;</p></a><div class="souligne"></div></div>
+
+      <div class="licu"><a href="http://"><p>ACTUALITES &nbsp;&nbsp;</p></a><div class="souligne"></div></div>
+   </div>
+    <div class="deroulant">
+     <span>filtre adulte:</span>
+      <select name="filtre adulte">
+       <option>strict</option>
+       <option>modéré</option>
+       <option>desactivé</option>
+      </select>
+
+     <span>filtre</span>
+      <select name="filtre" class="test">
+       <option>taille de l'image</option>
+       <option>couleur</option>
+       <option>type</option>
+       <option>orientation</option>
+       <option>personne</option>
+      </select>
+      <span class="cosinus"><img src="image2/filtre.png" width="20"></span>
+   </div>
+  </div>
+</section>
+
+ <hr>
+
+  <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="image2/img1.jpg" width="50" height="50" style="border-radius: 70px; box-sizing: border-box; margin: 0px;">
+          <p style="flex-direction: column; display:flex;">Nourriture  <b>chat</b></p></div>
+        <div class="swiper-slide"><img src="image2/img2.jpg" width="40" height="50" style="border-radius: 70px; box-sizing: border-box;">
+          <p style="flex-direction: column; display:flex;">Nourriture  <b>fasfood</b></p></div>
+        <div class="swiper-slide"><img src="image2/img3.jpg" width="40" height="50" style="border-radius: 70px;">
+          <p style="flex-direction: column; display:flex;">Nourriture  <b>africaine</b></p></div>
+        <div class="swiper-slide"><img src="image2/img4.jpg" width="40" height="50" style="border-radius: 70px;">
+          <p style="flex-direction: column; display:flex;"><b>italie </b>nourriture</p></div>
+        <div class="swiper-slide"><img src="image2/img5.jpg" width="40" height="50" style="border-radius: 70px;">
+          <p style="flex-direction: column; display:flex;">Nourriture  <b>française</b></p></div>
+        <div class="swiper-slide"><img src="image2/img6.jpg" width="40" height="50" style="border-radius: 70px;">
+          <p style="flex-direction: column; display:flex;">bonne  <b>Nourriture</b></p></div>
+        <div class="swiper-slide"><img src="image2/img7.jpg"width="40" height="50" style="border-radius: 70px;">
+          <p style="flex-direction: column; display:flex;">Nourriture <b>colorier</b></p></div>
+        <div class="swiper-slide"><img src="image2/a1.png"width="40" height="50" style="border-radius: 70px;">
+          <p style="flex-direction: column; display:flex;">Nourriture <b>anglaise</b></p></div>
+        <div class="swiper-slide"><img src="image2/img8.png" width="40" height="50" style="border-radius: 70px;">
+          <p style="flex-direction: column; display:flex;">Nourriture <b>PNG</b></p></div>
+        <div class="swiper-slide"><img src="image2/img10.jpg" width="40" height="50" style="border-radius: 70px;">
+          <p style="flex-direction: column; display:flex;">Nourriture <b>saine</b></p></div>
+        <div class="swiper-slide"><img src="image2/malbouffe.jpg" width="40" height="50" style="border-radius: 70px;">
+          <p><b>malbouffe</b></p></div>
+        <div class="swiper-slide"><img src="image2/boisson.jpg" width="40" height="50" style="border-radius: 70px;">
+          <p><b>Boissons</b></p> </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+
+<section class="a">
+<div class="part">
+    <div class="bt9">
+      <a href="#1" alt="hello">
+        <div class="survol1">
+          <p class="overlay1">taille 24x100 REGAL</p>
+        </div>
+        <p class="texto1">Wallpapers Nourriture Allemande - MaximumWall</p>
+      </a>
+    </div>
+
+   <div class="bt10">
+    <a href="#2">
+      <div class="survol2">
+        <p class="overlay2">taille 24x100 REGAL</p>
+      </div>  
+      <p class="texto2">Télécharger fonds d'écran nourriture gratuitement</p>
+    </a>
+   </div>
+
+    <div class="bt11">
+    <a href="#3">
+      <div class="survol3">
+        <p class="overlay3">taille 24x100 REGAL</p>
+      </div>  
+      <p class="texto3">J’ai mangé de la nourriture pour animaux - URBANIA</p>
+    </a>
+   </div>
+
+   <div class="bt12">
+    <a href="#4">
+      <div class="survol4">
+        <p class="overlay4">taille 208x24 JPG</p>
+      </div>  
+      <p class="texto4">la nourriture bio, bonne pour la santé? -pieuvre.ca</p>
+    </a>
+   </div>
+
+    <div class="bt13">
+    <a href="#5">
+      <div class="survol5">
+        <p class="overlay5">taille 24x100 REGAL</p>
+      </div>  
+      <p class="texto5">Télécharger fonds d'écran nourriture gratuitement</p>
+    </a>
+   </div>
+</div>
+
+<div class="part">
+  <div class="bt14">
+    <a href="#6">
+      <div class="survol6">
+        <p class="overlay6">taille 24x100 REGAL</p>
+      </div>  
+      <p class="texto6">Aliments nourriture assortis en lot de 48 en Plastique soufflé...</p>
+    </a>
+   </div>
+
+  <div class="bt15">
+    <a href="#7">
+      <div class="survol7">
+        <p class="overlay7">taille 24x100 REGAL</p>
+      </div>  
+      <p class="texto7">Nourriture - Page 29</p>
+    </a>
+   </div>
+
+  <div class="bt16">
+    <a href="#8">
+      <div class="survol8">
+        <p class="overlay8">taille 24x100 REGAL</p>
+      </div>  
+      <p class="texto7">Délices culinaires - la nourriture asiatique en 80 photos délicieuses.</p>
+    </a>
+   </div>
+
+  <div class="bt17">
+    <a href="#9">
+      <div class="survol9">
+        <p class="overlay9">taille 24x100 REGAL</p>
+      </div>  
+      <p class="texto9">Télécharger fonds d'écran nourriture gratuitement</p>
+    </a>
+  </div>
+
+  <div class="bt18">
+    <a href="#10">
+      <div class="survol10">
+        <p class="overlay10">taille 24x100 REGAL</p>
+      </div>  
+      <p class="texto10">Nourriture déshydratée : Quels avantages ? - Devenir survialiste</p>
+    </a>
+  </div>
+</div>
+</section>
+
+ <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 6,
+        spaceBetween: 30,
+        slidesPerGroup: 2,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+
+    
+
+
+<footer>
+  <br>
+  <fieldset class="ab"><img src="image2/chat_bubble.png" height="20" width="20" style="chat"><p class="commentaire">Commentaire</p></fieldset>
+  <br>
+</footer>
+
+</body>
+</html>
